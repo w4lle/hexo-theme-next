@@ -4,8 +4,6 @@
 
 {% block title %} {{ theme.keywords }} - {{ config.title }} - {{ theme.description }} {% endblock %}
 
-
-
 {% block page_class %}
   {% if is_home() %} page-home {% endif %}
 {% endblock %}
